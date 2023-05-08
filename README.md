@@ -7,8 +7,8 @@
 
  ## ¿Qué necesito para ejecutar el proyecto?
  * Ubicate en la raiz del proyecto.
- * abra tu consola y ejecura el comando " npm start ".
- ya con eso 2 pasos iniciara la aplicacion y el servidor estara escuchando peticiones.
+ * abre tu consola y ejecura el comando " npm start ".
+ Ya con eso 2 pasos iniciara la aplicacion y el servidor estara escuchando peticiones.
 
 
 
