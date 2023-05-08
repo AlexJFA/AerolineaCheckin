@@ -10,6 +10,8 @@
  * abre tu consola y ejecura el comando " npm start ".
  Ya con eso 2 pasos iniciara la aplicacion y el servidor estara escuchando peticiones.
 
-
-
-
+# Dependencias.
+* express.
+* nodemon.
+* cors.
+* mysql.
