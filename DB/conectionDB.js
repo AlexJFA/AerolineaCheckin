@@ -10,8 +10,10 @@ const DB = {
 
 const mysqlConection = mysql.createConnection(DB);
 
-mysqlConection.connect(() => {
-  return console.log("successful connection to the DB");
+mysqlConection.connect((error, result) => {
+  if(error) return console.log('error connection to the DB', error);
+  
+  return console.log("successful connection to the DB" , result);
 });
 
 module.exports = mysqlConection;

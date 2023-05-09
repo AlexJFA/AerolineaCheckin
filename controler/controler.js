@@ -4,7 +4,7 @@ const controler = {
   sumulation: async (req, res) => {
     try {
       //Obtenemos el ID del vuelo por parametro
-      let { flightId } = req.params.id;
+      let  flightId  = req.params.id;
 
       //Obtenemos toda la informacion de vuelo a traves de la consulta a la Base de datos y lo asignamos al array "dataFlight"
       const [dataFlight] = await conectionDB.query(
